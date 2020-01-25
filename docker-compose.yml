@@ -1,0 +1,9 @@
+version: '3.5'
+services:
+    widget-test:
+        container_name: widget-test
+        build: .
+        ports:
+            - 8889:8889
+        volumes:
+            - .:/widget-test
